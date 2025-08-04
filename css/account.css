@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(222, 224, 234);
+    font-family: EB Garamond, serif;
+}
+
+.back {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;    
+}
+
+.back i {
+    font-size: 2rem;
+    color: black;
+    margin-left: 1rem;
+    margin-top: -0.2rem;
+    animation: opacity 2s ease;
+}
+
+.back a {
+    text-decoration: none;
+    color: black;
+    animation: opacity 2s ease;
+
+}
+
+.container {
+    margin-top: 10rem;
+    margin-left: 30rem;
+    animation: opacity 1s ease;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 1rem;
+    border: 2px solid rgb(111, 111, 111);
+    margin-right: 30rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: opacity 1s ease;
+    margin-bottom: 2rem;
+}
+
+.profile:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 5);
+    transition: all 0.3s ease;
+}
+
+.profile #desc {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.profile #arrow {
+    font-size: 2rem;
+    text-align: right;
+    position: relative;
+    top: -2.6rem;
+    margin-bottom: -1.5rem;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

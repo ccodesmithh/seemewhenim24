@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(222, 224, 234);
+}
+
+.container{
+    text-align: center;
+
+}
+
+.head{
+    font-family: "Parisienne", cursive;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    animation: main 1s ease;
+}
+
+.bar, .bar2{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    animation: main 1.5s ease;
+}
+
+.bar2{
+    margin-top: 300px;
+}
+
+.title{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-family: "EB Garamond", serif;
+    letter-spacing: 3px;
+    text-shadow: 0cap 0px 50px rgb(0, 0, 0);
+    animation: main 2s ease;
+}
+
+.p{
+    font-family: "EB Garamond", serif;
+    animation: main 3s ease;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@keyframes main{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+
+    }
+}

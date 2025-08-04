@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #000930;
+    background-image: linear-gradient(to bottom right, #040082, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    font-family: EB Garamond, serif;
+    color: white;
+    animation: opacity 2s ease;
+}
+
+.container {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#content {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ft-bp {
+    display: flex;
+    gap: 35rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 90%;
+}
+
+.ft-bp a {
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-family: "Parisienne", cursive;
+    font-size: 1.5rem;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 71.3%;
+    }
+}

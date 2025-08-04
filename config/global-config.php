@@ -1,0 +1,4 @@
+<?php
+    // Icon
+    $icon = '<?= $icon ?>'
+?>
